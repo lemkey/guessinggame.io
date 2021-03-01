@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/guessinggame.css">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+    <div>
+    <h1> You Will NEVER Guess This Number</h1>
+    <h2> Attempts</h2>
+    <ul id ="guess-arr">
+      <li id="guess-1">First Guess</li>
+      <li id="guess-2">Second Guess</li>
+      <li id="guess-3">Third Guess</li>
+      <li id="guess-4">Fourth Guess</li>
+      <li id="guess-5">Fifth Guess</li>
+    </ul>
+    <div id="message">
+
+    </div>
+    <div id="formParent">
+      <input type="number" min="0" max="100" id="number-input" placeholder="enter guess here"></input>
+      <button id="submit">Submit Guess</button>
+      <button id="play-again">Play Again</button>
+    </div>
+  </div>
+    <script src='js/guessing-game.js'></script>
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+</html>
